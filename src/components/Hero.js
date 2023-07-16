@@ -3,6 +3,7 @@ import '../styles/Style.css';
 import { GitHub, LinkedIn } from '@mui/icons-material';
 import { Grid } from '@mui/material';
 
+
 const Hero = () => {
     return (
         <div className='container'>

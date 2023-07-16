@@ -2,14 +2,14 @@ import React from 'react';
 import { Grid } from '@mui/material';
 import '../styles/Style.css';
 import { Feed } from '@mui/icons-material';
-// import AboutImage from '../images/image/AboutImage.png';
+import AboutImage from '../images/image/AboutImage.png';
 
 const About = () => {
     return (
         <div id='about' className='about'>
             <Grid container spacing={4}>
                 <Grid item xs={12} sm={6}>
-                    <img className='about-img' src={"https://previews.dropbox.com/p/thumb/AB8qqTAWjQ1TQvIci21Z2gbi_JFxewPNrfzHUL9qhSPGzkK6hc-WswTKAv-QwOX5uBEFUck5wV0LpUsMLAaf-F21zE4OvdIA5Tpcztn23dJKe_1Es0N60qQve_X3C78mb0j54XVIA8PraHELciOMSttrzVk3VxLm3nskvFa8BC6bGbAXbdEgMy0S6Tf675XKnFc95CTSPXbJDx_29GOzszDp5IOhb16PtKVQM9UBcJMbSGOTtk3_msR57xYEsH5JkuWlWOJe-2Nf5Gv-NwbLvZ-MF8mxEfMIdAXEI4cdOsBbLQDea2sMaYs3NH4esaIiSG7Sf89904aWqdGxlEPeK9-8/p.png"} alt="About" />
+                    <img className='about-img' src={AboutImage} alt="About" />
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <div className='about-text'>
