@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/Style.css';
 import { Drawer, List, ListItem, ListItemText, IconButton } from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
+import TableRowsIcon from '@mui/icons-material/TableRows';
 import CancelIcon from '@mui/icons-material/Cancel';
 
 const Header = () => {
@@ -47,7 +47,7 @@ const Header = () => {
                     </ul>
 
                     <IconButton style={{ fontSize: "5rem" }} id='menu-stack' onClick={handleMenuClick}>
-                        {menuOpen ? <CancelIcon onClick={handleCancelClick} /> : <MenuIcon />}
+                        {menuOpen ? <CancelIcon onClick={handleCancelClick} /> : <TableRowsIcon />}
                     </IconButton>
                 </div>
             </div>

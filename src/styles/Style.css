@@ -286,7 +286,7 @@
     flex-direction: column;
     gap: 20px;
     justify-content: center;
-    margin: 8rem 4rem;
+    margin: 8rem 2rem;
 }
 
 @media (max-width: 480px) {
