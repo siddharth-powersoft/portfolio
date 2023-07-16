@@ -15,10 +15,10 @@ const Project = () => {
                     <h4 style={{ color: "blue", fontWeight: "800" }}>PROJECT</h4>
                     <h3 style={{ fontWeight: "800", fontSize: "25px" }}>Every Project is a unique piece of Development 🧩</h3>
                     <h3 style={{ fontWeight: "800", fontSize: "25px" }}>SHOPPING APP</h3>
-                    <p className='hero-text' style={{ fontWeight: "500", color: "gray" }}>
+                    <p className='about-text' style={{ fontWeight: "500", color: "gray" }}>
                         The React Shopping App is an online platform where users can browse and purchase various products from a catalog. The website will provide users with a seamless shopping experience, allowing them to add products to their cart and checkout.
                     </p>
-                    <a href='https://github.com/sidrupwate/React-Final-Project' className='social'><GitHub style={{ fontSize: "35px" }} /><span style={{ fontWeight: "800", margin: "0 5px" }}>Code</span></a>
+                    <a href='https://github.com/sidrupwate/React-Final-Project' className='social'><GitHub style={{ fontSize: "35px" }} /><span style={{ fontWeight: "800", margin: "0 5px" }} className='social-text'>Code</span></a>
                 </div>
                 <div className='project-img-section'>
                     <Grid className='project-img-grid' style={{ padding: "150px" }} container spacing={0}>
@@ -46,11 +46,11 @@ const Project = () => {
 
                     <h3 style={{ fontWeight: "800", fontSize: "25px" }}>WEATHER APP</h3>
                     {/* <h3 style={{ fontWeight: "800", fontSize: "25px" }}>Every Project is a unique piece of Development</h3> */}
-                    <p className='hero-text' style={{ fontWeight: "500", color: "gray" }}>
+                    <p className='about-text' style={{ fontWeight: "500", color: "gray" }}>
 
                         React Weather App, a web-based platform developed using React and API integration. Get real-time weather updates for your current location and search for cities worldwide. Experience accurate data, intuitive design, customizable preferences, forecasts.
                     </p>
-                    <a href='https://github.com/sidrupwate/My-Weather-App.git' className='social'><GitHub style={{ fontSize: "35px" }} /><span style={{ fontWeight: "800", margin: "0 5px" }}>Code</span></a>
+                    <a href='https://github.com/sidrupwate/My-Weather-App.git' className='social'><GitHub style={{ fontSize: "35px" }} /><span style={{ fontWeight: "800", margin: "0 5px" }} className='social-text'>Code</span></a>
                 </div>
             </div>
         </>

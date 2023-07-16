@@ -10,7 +10,7 @@ const Footer = () => {
         <Grid container spacing={2}>
           <Grid item xs={12} sm={4}>
             <a style={{ textDecoration: "none", color: "gray" }} href="#">
-              <h1 style={{ fontWeight: "700", fontSize: "30px" }}>sid<span style={{ color: "red" }}>.</span>dev</h1>
+              <h1 className='logo' style={{ fontWeight: "700", fontSize: "30px", color:"gray" }}>sid<span style={{ color: "red" }} className='logo'>.</span>dev</h1>
             </a>
           </Grid>
           <Grid item xs={12} sm={4}>

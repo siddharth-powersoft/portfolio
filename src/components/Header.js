@@ -20,7 +20,7 @@ const Header = () => {
             <div className='navBar'>
                 <div>
                     <a className='logo' href="#">
-                        <h1 style={{ fontWeight: "700", fontSize: "30px" }}>sid<span style={{ color: "red" }}>.</span>dev</h1>
+                        <h1 className='logo' style={{ fontWeight: "700" }}>sid<span style={{ color: "red" }} className='logo' >.</span>dev</h1>
                     </a>
                 </div>
                 <div>
