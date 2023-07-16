@@ -25,6 +25,7 @@
     color: rgb(0, 0, 0);
     text-decoration: none;
     transition: ease 0.3s;
+    font-size: 2rem;
 }
 
 .ul {
