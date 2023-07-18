@@ -18,10 +18,10 @@ const Hero = () => {
                             <p >Hi, I'm Siddharth, a passionate Front-end React Developer based in Mumbai 📍</p>
                             <div>
                                 <a href='https://www.linkedin.com/in/siddharth-rupwate' className='social'>
-                                    <LinkedIn style={{ fontSize: "35px" }} />
+                                    <LinkedIn className='social-icon' />
                                 </a>
                                 <a href='https://github.com/sidrupwate' className='social'>
-                                    <GitHub style={{ fontSize: "35px" }} />
+                                    <GitHub className='social-icon' />
                                 </a>
                             </div>
                         </section>

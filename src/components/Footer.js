@@ -1,5 +1,4 @@
 import React from 'react';
-import { Grid } from '@mui/material';
 import '../styles/Style.css';
 import { GitHub, LinkedIn } from '@mui/icons-material';
 
@@ -7,26 +6,18 @@ const Footer = () => {
   return (
     <>
       <div className='footer'>
-        <Grid container spacing={2}>
-          <Grid item xs={12} sm={4}>
-            <a style={{ textDecoration: "none", color: "gray" }} href="#">
-              <h1 className='logo' style={{ fontWeight: "700", fontSize: "30px", color:"gray" }}>sid<span style={{ color: "red" }} className='logo'>.</span>dev</h1>
-            </a>
-          </Grid>
-          <Grid item xs={12} sm={4}>
-            <div>&copy; {new Date().getFullYear()} All rights reserved.</div>
-          </Grid>
-          <Grid item xs={12} sm={4}>
-            <div className="social-icons">
-              <a href='https://www.linkedin.com/in/siddharth-rupwate' className='social'>
-                <LinkedIn style={{ fontSize: "35px", color: "white" }} />
-              </a>
-              <a href='https://github.com/sidrupwate' className='social'>
-                <GitHub style={{ fontSize: "35px", color: "white" }} />
-              </a>
-            </div>
-          </Grid>
-        </Grid>
+        <a style={{ textDecoration: "none", color: "gray" }} href="#">
+          <h1 className='logo' style={{ fontWeight: "700", color: "gray" }}>sid<span style={{ color: "red" }} className='logo'>.</span>dev</h1>
+        </a>
+        <div className='copyright'>&copy; {new Date().getFullYear()} All rights reserved.</div>
+        <div className="social-icons">
+          <a href='https://www.linkedin.com/in/siddharth-rupwate' className='social'>
+            <LinkedIn className='social-icon' style={{ color: "white" }} />
+          </a>
+          <a href='https://github.com/sidrupwate' className='social'>
+            <GitHub className='social-icon' style={{  color: "white" }} />
+          </a>
+        </div>
       </div>
     </>
   );

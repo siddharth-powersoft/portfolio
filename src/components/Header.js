@@ -46,38 +46,39 @@ const Header = () => {
                         </a>
                     </ul>
 
-                    <IconButton style={{ fontSize: "5rem" }} id='menu-stack' onClick={handleMenuClick}>
-                        {menuOpen ? <CancelIcon onClick={handleCancelClick} /> : <TableRowsIcon />}
+                    <IconButton id='menu-stack' onClick={handleMenuClick}>
+                        {menuOpen ? <CancelIcon onClick={handleCancelClick} /> : <TableRowsIcon style={{ fontSize: "2.5rem" }} />}
                     </IconButton>
                 </div>
             </div>
 
             <Drawer anchor='right' open={menuOpen} onClose={() => setMenuOpen(false)}>
                 <IconButton onClick={handleCancelClick}>
-                    <CancelIcon style={{ marginLeft: "15rem" }} />
+                    <CancelIcon style={{ marginLeft: "25rem", fontSize: "2.5rem" }} />
                 </IconButton>
-                <List id='toggleList'>
-                    <a className='ulList' href='#'>
-                        <ListItem id='ListItem' onClick={() => setMenuOpen(false)}>
-                            <ListItemText primary='Home' />
-                        </ListItem>
-                    </a>
-                    <a className='ulList' href='#about'>
-                        <ListItem id='ListItem' onClick={() => setMenuOpen(false)}>
-                            <ListItemText primary='About' />
-                        </ListItem>
-                    </a>
-                    <a className='ulList' href='#project'>
-                        <ListItem id='ListItem' onClick={() => setMenuOpen(false)}>
-                            <ListItemText primary='Projects' />
-                        </ListItem>
-                    </a>
-                    <a className='ulList' href='#contact'>
-                        <ListItem id='ListItem' onClick={() => setMenuOpen(false)}>
-                            <ListItemText primary='Contact' />
-                        </ListItem>
-                    </a>
-                </List>
+                <ul id='toggleList'>
+                    <li className='ulList'>
+                        <a href='#' onClick={() => setMenuOpen(false)}>
+                            Home
+                        </a>
+                    </li>
+                    <li className='ulList'>
+                        <a href='#about' onClick={() => setMenuOpen(false)}>
+                            About
+                        </a>
+                    </li>
+                    <li className='ulList'>
+                        <a href='#project' onClick={() => setMenuOpen(false)}>
+                            Projects
+                        </a>
+                    </li>
+                    <li className='ulList'>
+                        <a href='#contact' onClick={() => setMenuOpen(false)}>
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+
             </Drawer>
         </>
     );
