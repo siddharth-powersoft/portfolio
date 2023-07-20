@@ -456,7 +456,7 @@
     }
 
     .about {
-        width: 250%;
+        width: 255%;
         padding: 5rem 0;
         padding-bottom: 4rem;
     }
@@ -544,7 +544,7 @@
         flex-direction: column;
         padding: 107px 5px;
         background-color: rgb(239, 239, 239);
-        width: 250%;
+        width: 255%;
         text-align: center;
         gap: 1.5rem;
     }
@@ -574,7 +574,7 @@
         background-color: black;
         padding: 6rem;
         color: gray;
-        width: 250%;
+        width: 255%;
     }
     
 }
