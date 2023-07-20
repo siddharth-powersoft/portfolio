@@ -13,7 +13,7 @@ const Hero = () => {
                         <section className='text-section'>
                             <h1 className='hero-text' style={{ fontWeight: "800" }}>
                                 Front-End React Developer
-                                <img className='wave-img' height={50} width={50} src='https://stefantopalovicdev.vercel.app/static/media/waving.1bae5fcfb51082b5c2b4.png' />
+                                <img className='wave-img' src='https://stefantopalovicdev.vercel.app/static/media/waving.1bae5fcfb51082b5c2b4.png' />
                             </h1>
                             <p >Hi, I'm Siddharth, a passionate Front-end React Developer based in Mumbai 📍</p>
                             <div>

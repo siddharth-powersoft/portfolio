@@ -70,6 +70,11 @@
     width: 457px;
 }
 
+.wave-img{
+    height: 50px;
+    width: 50px;
+}
+
 @keyframes colorChange {
     0% {
         background-color: rgba(248, 240, 0, 0.707);
@@ -296,6 +301,10 @@
     margin: 8rem 2rem;
 }
 
+.hor-line{
+    display: none;
+}
+
 
 .project-text1 {
     display: flex;
@@ -406,6 +415,11 @@
         font-size: 70px;
     }
 
+    .wave-img{
+        height: 100px;
+        width: 100px;
+    }
+
 
     .text-section {
         margin: 4rem;
@@ -474,7 +488,13 @@
         margin: 0px;
     }
 
-
+    .hor-line{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 4rem;
+    }
+    
 
     h4 {
         font-size: 2rem;

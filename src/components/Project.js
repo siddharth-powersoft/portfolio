@@ -33,6 +33,7 @@ const Project = () => {
                         </Grid>
                     </Grid>
                 </div>
+                <hr className='hor-line'/>
             </div>
             <div className='project'>
                 <div className='project-img-section'>
@@ -43,7 +44,6 @@ const Project = () => {
                     </Grid>
                 </div>
                 <div className='project-text'>
-
                     <h3 style={{ fontWeight: "800", fontSize: "25px" }}>WEATHER APP</h3>
                     {/* <h3 style={{ fontWeight: "800", fontSize: "25px" }}>Every Project is a unique piece of Development</h3> */}
                     <p className='about-text' style={{ fontWeight: "500", color: "gray" }}>
