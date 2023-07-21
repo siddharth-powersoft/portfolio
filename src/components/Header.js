@@ -47,14 +47,14 @@ const Header = () => {
                     </ul>
 
                     <IconButton id='menu-stack' onClick={handleMenuClick}>
-                        {menuOpen ? <CancelIcon onClick={handleCancelClick} /> : <TableRowsIcon style={{ fontSize: "2.5rem" }} />}
+                        {menuOpen ? <CancelIcon onClick={handleCancelClick} /> : <TableRowsIcon style={{ fontSize: "4.5rem" }} />}
                     </IconButton>
                 </div>
             </div>
 
-            <Drawer anchor='right' open={menuOpen} onClose={() => setMenuOpen(false)}>
+            <Drawer anchor='left' open={menuOpen} onClose={() => setMenuOpen(false)}>
                 <IconButton onClick={handleCancelClick}>
-                    <CancelIcon style={{ marginLeft: "25rem", fontSize: "2.5rem" }} />
+                    <CancelIcon style={{ marginLeft: "40rem", fontSize: "4.5rem" }} />
                 </IconButton>
                 <ul id='toggleList'>
                     <li className='ulList'>
