@@ -16,7 +16,7 @@ const Hero = () => {
                                 <img className='wave-img' src='https://stefantopalovicdev.vercel.app/static/media/waving.1bae5fcfb51082b5c2b4.png' />
                             </h1>
                             <p >Hi, I'm Siddharth, a passionate Front-end React Developer based in Mumbai 📍</p>
-                            <div>
+                            <div className='link-icon'>
                                 <a href='https://www.linkedin.com/in/siddharth-rupwate' className='social'>
                                     <LinkedIn className='social-icon' />
                                 </a>
