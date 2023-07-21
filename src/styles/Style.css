@@ -521,17 +521,12 @@
         font-size: 3.5rem !important;
     }
 
-    .project-img {
-        border-radius: 25px;
-        box-shadow: 4px 10px 20px 5px rgba(0, 0, 0, .09);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
 
     .project-img-weather {
         border-radius: 25px;
         box-shadow: 4px 10px 20px 5px rgba(0, 0, 0, .09);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
-        height: 81vh;
+        height: 78vh;
         width: 225vw;
     }
 
@@ -539,7 +534,7 @@
         border-radius: 25px;
         box-shadow: 4px 10px 20px 5px rgba(0, 0, 0, .09);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
-        height: 70vh;
+        height: 67vh;
         width: 240vw;
     }
 
@@ -547,7 +542,7 @@
         border-radius: 25px;
         box-shadow: 4px 10px 20px 5px rgba(0, 0, 0, .09);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
-        height: 129vh;
+        height: 125vh;
         width: 162vw;
     }
 
