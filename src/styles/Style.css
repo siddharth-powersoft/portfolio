@@ -509,7 +509,7 @@
 
     h2 {
         font-size: 3rem;
-        margin-bottom: 2rem;
+        margin: 3rem 0;
     }
 
     h3 {
@@ -525,6 +525,30 @@
         border-radius: 25px;
         box-shadow: 4px 10px 20px 5px rgba(0, 0, 0, .09);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-img-weather {
+        border-radius: 25px;
+        box-shadow: 4px 10px 20px 5px rgba(0, 0, 0, .09);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        height: 81vh;
+        width: 225vw;
+    }
+
+    .project-img-product {
+        border-radius: 25px;
+        box-shadow: 4px 10px 20px 5px rgba(0, 0, 0, .09);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        height: 70vh;
+        width: 240vw;
+    }
+
+    .project-img-login {
+        border-radius: 25px;
+        box-shadow: 4px 10px 20px 5px rgba(0, 0, 0, .09);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        height: 129vh;
+        width: 162vw;
     }
 
     .project-card {
@@ -604,7 +628,7 @@
         text-align: left;
     }
 
-    .link-icon{
+    .link-icon {
         text-align: left;
     }
 
@@ -614,7 +638,7 @@
         align-items: center;
         gap: 2.5rem;
         background-color: black;
-        padding: 8rem 1rem;
+        padding: 8rem 1.5rem;
         color: gray;
         width: 330%;
     }

@@ -18,13 +18,13 @@ const Project = () => {
                     <div className='project-img-section'>
                         <Grid className='project-img-grid' style={{ padding: "150px" }} container spacing={0}>
                             <Grid item xs={12} sm={0} md={5}>
-                                <img height={300} width={200} className='project-img' src={LoginPage} alt='Login Page' />
+                                <img height={300} width={200} className='project-img-login' src={LoginPage} alt='Login Page' />
                             </Grid>
                             <Grid style={{ marginTop: "40px" }} item xs={12} sm={0} md={7}>
-                                <img height={250} width={500} className='project-img' src={ProductPage} alt='Product Page' />
+                                <img height={250} width={500} className='project-img-product' src={ProductPage} alt='Product Page' />
                             </Grid>
                             <Grid style={{ marginTop: "40px" }} item xs={12} sm={0} md={14}>
-                                <img height={300} width={600} className='project-img' src={CheckoutPage} alt='Checkout Page' />
+                                <img height={300} width={600} className='project-img-product' src={CheckoutPage} alt='Checkout Page' />
                             </Grid>
                         </Grid>
                     </div>
@@ -42,7 +42,7 @@ const Project = () => {
                     <div className='project-img-section'>
                         <Grid className='project-img-grid' style={{ padding: "0 150px" }} container spacing={0}>
                             <Grid style={{ marginTop: "40px" }} item xs={12} sm={0} md={7}>
-                                <img height={320} width={500} className='project-img' src={Weather} alt='Weather' />
+                                <img height={320} width={500} className='project-img-weather' src={Weather} alt='Weather' />
                             </Grid>
                         </Grid>
                     </div>
