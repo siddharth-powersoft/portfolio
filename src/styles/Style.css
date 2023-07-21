@@ -416,7 +416,7 @@
     }
 
     .hero-text {
-        font-size: 90px;
+        font-size: 100px;
     }
 
     .wave-img {
@@ -449,15 +449,15 @@
 
     .tech-skill {
         display: flex;
-        margin-left: -7rem;
-        gap: 2rem;
+        margin-left: -10rem;
+        gap: 2.5rem;
 
     }
 
     .tech-image {
-        height: 120px;
-        width: 120px;
-        border-radius: 62px;
+        height: 150px;
+        width: 150px;
+        border-radius: 70px;
         box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, .09);
         padding: 19px;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
