@@ -526,7 +526,7 @@
         border-radius: 25px;
         box-shadow: 4px 10px 20px 5px rgba(0, 0, 0, .09);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
-        height: 85vh;
+        height: 73vh;
         width: 225vw;
     }
 
@@ -534,7 +534,7 @@
         border-radius: 25px;
         box-shadow: 4px 10px 20px 5px rgba(0, 0, 0, .09);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
-        height: 67vh;
+        height: 63vh;
         width: 240vw;
     }
 
@@ -542,7 +542,7 @@
         border-radius: 25px;
         box-shadow: 4px 10px 20px 5px rgba(0, 0, 0, .09);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
-        height: 130vh;
+        height: 120vh;
         width: 162vw;
     }
 
