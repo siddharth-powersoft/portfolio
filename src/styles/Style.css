@@ -411,7 +411,7 @@
     }
 
     .hero-img {
-        height: 100vh;
+        height: 110vh;
         width: 218vw;
         margin: -94px 0px 0 0;
     }
@@ -526,7 +526,7 @@
         border-radius: 25px;
         box-shadow: 4px 10px 20px 5px rgba(0, 0, 0, .09);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
-        height: 78vh;
+        height: 85vh;
         width: 225vw;
     }
 
@@ -542,7 +542,7 @@
         border-radius: 25px;
         box-shadow: 4px 10px 20px 5px rgba(0, 0, 0, .09);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
-        height: 125vh;
+        height: 130vh;
         width: 162vw;
     }
 
