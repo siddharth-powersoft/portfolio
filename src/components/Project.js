@@ -5,6 +5,7 @@ import ProductPage from '../images/image/ProductPage.png';
 import CheckoutPage from '../images/image/CheckoutPage.png';
 import Weather from '../images/image/Weather.png';
 import { GitHub } from '@mui/icons-material';
+import LaunchIcon from '@mui/icons-material/Launch';
 import '../styles/Style.css';
 
 const Project = () => {
@@ -36,6 +37,10 @@ const Project = () => {
                         <GitHub style={{ fontSize: "35px" }} className='social-icon' />
                         <span style={{ fontWeight: "800", margin: "0 5px" }} className='social-text'>Code</span>
                     </a>
+                    <a href='https://sidrupwate-shopping-app.vercel.app' className='social'>
+                    <LaunchIcon style={{ fontSize: "35px" }} className='social-icon' />
+                        <span style={{ fontWeight: "800", margin: "0 5px" }} className='social-text'>Live Demo</span>
+                    </a>
                 </div>
                 {/* Second project-card */}
                 <div className='project-card'>
@@ -53,6 +58,10 @@ const Project = () => {
                     <a href='https://github.com/sidrupwate/My-Weather-App.git' className='social'>
                         <GitHub style={{ fontSize: "35px" }} className='social-icon' />
                         <span style={{ fontWeight: "800", margin: "0 5px" }} className='social-text'>Code</span>
+                    </a>
+                    <a href='https://sidrupwate-weather-app.vercel.app' className='social'>
+                    <LaunchIcon style={{ fontSize: "35px" }} className='social-icon' />
+                        <span style={{ fontWeight: "800", margin: "0 5px" }} className='social-text'>Live Demo</span>
                     </a>
                 </div>
             </div>
