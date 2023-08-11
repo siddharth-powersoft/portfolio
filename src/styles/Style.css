@@ -399,6 +399,7 @@
 
     .social-text {
         font-size: 3rem;
+        margin: 1rem;
     }
 
     #menu-stack {
@@ -621,6 +622,7 @@
         font-size: 5rem !important;
         margin: 0 6px;
         text-align: left;
+        margin-left: 3rem;
     }
 
     .link-icon {
