@@ -619,10 +619,10 @@
     }
 
     .social-icon {
-        font-size: 5rem !important;
-        margin: 0 6px;
+        font-size: 6rem !important;
+        /* margin: 0 6px;   */
         text-align: left;
-        margin-left: 3rem;
+        /* margin-left: 3rem; */
     }
 
     .link-icon {
