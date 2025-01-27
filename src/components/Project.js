@@ -51,6 +51,11 @@ const Project = () => {
                             </Grid>
                         </Grid>
                     </div>
+                    <br></br>
+                    <br/>
+                    <br/>
+                    <br/>
+
                     <h3 style={{ fontWeight: "800", fontSize: "25px" }}>WEATHER APP</h3>
                     <p className='about-text' style={{ fontWeight: "500", color: "gray" }}>
                         React Weather App, a web-based platform developed using React and API integration. Get real-time weather updates for your current location and search for cities worldwide. Experience accurate data, intuitive design, customizable preferences, forecasts.

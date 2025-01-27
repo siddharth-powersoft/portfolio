@@ -64,8 +64,8 @@
 
 .hero-img {
     transition: ease 0.3s;
-    height: 430px;
-    width: 457px;
+    height: 400px;
+    width: 400px;
 }
 
 .wave-img {
@@ -186,8 +186,9 @@
     width: 50px;
     border-radius: 50px;
     box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, .09);
-    padding: 11px;
+    padding: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: -0.5rem;
 }
 
 .tech-image:hover {
@@ -442,7 +443,7 @@
     }
 
     .tech-section {
-        margin: 6rem 0;
+        margin: 6rem 0 0 -10rem;
         text-align: center;
     }
 

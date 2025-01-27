@@ -12,10 +12,10 @@ const Hero = () => {
                     <div className='hero'>
                         <section className='text-section'>
                             <h1 className='hero-text' style={{ fontWeight: "800" }}>
-                                Front-End React Developer
+                                Front-End Developer
                                 <img className='wave-img' src='https://stefantopalovicdev.vercel.app/static/media/waving.1bae5fcfb51082b5c2b4.png' />
                             </h1>
-                            <p >Hi, I'm Siddharth, a passionate Front-end React Developer based in Mumbai 📍</p>
+                            <p >Hi, I'm Siddharth, a passionate Front-end Developer based in Mumbai 📍</p>
                             <div className='link-icon'>
                                 <a href='https://www.linkedin.com/in/siddharth-rupwate' className='social'>
                                     <LinkedIn className='social-icon' />
@@ -30,7 +30,7 @@ const Hero = () => {
                 <Grid item md={4} xs={12}>
                     <div className='hero'>
                         <section className='image-section'>
-                            <img className='hero-img' src='https://nsy.co.in/images/dev.gif' />
+                            <img className='hero-img' src='https://media.licdn.com/dms/image/v2/D5612AQGOmwfIE5mlWA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1674617947228?e=2147483647&v=beta&t=L-J1EFIJzlFXa-2bu5K-SqOT0PXYAaPZgXxnpneoF0U' />
                         </section>
                     </div>
                 </Grid>
@@ -44,19 +44,22 @@ const Hero = () => {
                 </div>
                 <div className='tech-skill'>
                     <div>
-                        <img className='tech-image' src='https://stefantopalovicdev.vercel.app/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg' />
+                        <img className='tech-image' src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png' />
                     </div>
                     <div>
-                        <img className='tech-image' src='https://stefantopalovicdev.vercel.app/static/media/css3.9cecabbf6ce67609c48bc4f280a11002.svg' />
+                        <img className='tech-image' src='https://cdn3.iconfinder.com/data/icons/logos-3/250/angular-512.png' />
                     </div>
                     <div>
-                        <img className='tech-image' src='https://stefantopalovicdev.vercel.app/static/media/javascript.de4c2594613e34b15666206bbede7327.svg' />
+                        <img className='tech-image' src='https://cdn3.iconfinder.com/data/icons/social-media-logos-flat-colorful-1/2048/5352_-_HTML5-512.png' />
                     </div>
                     <div>
-                        <img className='tech-image' src='https://stefantopalovicdev.vercel.app/static/media/react.afac9c43724070bf6674f2692b7356a9.svg' />
+                        <img className='tech-image' src='https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png' />
                     </div>
                     <div>
                         <img className='tech-image' src='https://cdn.worldvectorlogo.com/logos/redux.svg' />
+                    </div>
+                    <div>
+                        <img className='tech-image' src='https://cdn2.iconfinder.com/data/icons/designer-skills/128/sass-512.png' />
                     </div>
                 </div>
             </div>
