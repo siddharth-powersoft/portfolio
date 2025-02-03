@@ -11,7 +11,7 @@ const Footer = () => {
         </a>
         <div className='copyright'>&copy; {new Date().getFullYear()} All rights reserved.</div>
         <div className="social-icons" style={{display:"flex"}}>
-          <a href='https://www.linkedin.com/in/siddharth-rupwate' className='social'>
+          <a href='https://www.linkedin.com/in/sidrupwate' className='social'>
             <LinkedIn className='social-icon' style={{ color: "white" }} />
           </a>
           <a href='https://github.com/sidrupwate' className='social'>

@@ -17,7 +17,7 @@ const Hero = () => {
                             </h1>
                             <p >Hi, I'm Siddharth, a passionate Front-end Developer based in Mumbai 📍</p>
                             <div className='link-icon'>
-                                <a href='https://www.linkedin.com/in/siddharth-rupwate' className='social'>
+                                <a href='https://www.linkedin.com/in/sidrupwate' className='social'>
                                     <LinkedIn className='social-icon' />
                                 </a>
                                 <a href='https://github.com/sidrupwate' className='social'>
