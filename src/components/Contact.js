@@ -10,7 +10,7 @@ const ContactComponent = () => {
         {/* <h2 style={{ fontWeight: "800", margin: "2rem 0" }}>Hit Me Up!</h2> */}
         <div>
           <Email className='contact-icon' />
-          <a className='contactdetail' href="mailto:siddharthrupwate@gmail.com">siddharthrupwate@gmail.com</a>
+          <a className='contactdetail' href="mailto:sidrrupwate@gmail.com">sidrrupwate@gmail.com</a>
         </div>
         <div>
           <Phone className='contact-icon' />

@@ -19,20 +19,21 @@ const About = () => {
                 </Grid>
                 <br />
                 <p className='about-text' style={{ fontWeight: "500", color: "gray" }}>
-                    Hey there! I’m Siddharth, a Front-End Developer who’s passionate about building sleek, interactive user interfaces. There's nothing more exciting to me than bringing a design to life with clean, responsive code—turning ideas into seamless digital experiences.
+                    Hi, I'm Siddharth — a Front-End Developer who enjoys creating clean, responsive, and user-friendly web applications. I love bringing designs to life with well-structured code and making sure that every website feels smooth, fast, and easy to use.
 
-                    ☕ Coffee is my fuel, and coding is my craft. I love the process of fine-tuning UIs, optimizing performance, and making web applications feel intuitive and effortless to use. But when I step away from the screen, you’ll find me exploring nature with my camera in hand. I have a deep love for photography, especially capturing the raw beauty of nature. Whether it’s a quiet sunrise or the stillness of a forest, I find inspiration in the little details that make the world around us so breathtaking.
+                    I focus on building interfaces that not only look good but also perform well across all devices. Writing clean code, improving performance, and making websites accessible and intuitive are things I truly care about.
                     <br />
                     <br />
                     <br />
 
 
-                    There’s something about coding and photography that feels connected—both require patience, creativity, and an eye for detail. Whether I’m designing a UI or framing a perfect shot, I always strive to create something meaningful.
-                    <br />
-                    💼 For more professional projects, <a href='https://www.dropbox.com/scl/fi/uyyycc2p6g11697g8hor9/SIDDHARTH-R-2.pdf?rlkey=52e185t5ekqna5ioro6ff2la2&st=qsx44fj6&dl=0'>
-                        <span>click here to view my resume</span>
-                    </a> and explore my work!
-                    🚀 Let’s build something amazing together—one pixel at a time!</p>
+                    I believe that good development is all about attention to detail, patience, and creativity. Whether it's refining a button animation or optimizing page load speed, I enjoy every part of the process.
+
+                    I’m always excited to learn new technologies, improve my skills, and take on new challenges.
+                    💼 Feel free to explore my <a href='https://www.dropbox.com/scl/fi/uyyycc2p6g11697g8hor9/SIDDHARTH-R-2.pdf?rlkey=52e185t5ekqna5ioro6ff2la2&st=qsx44fj6&dl=0'>
+                        <span>resume</span>
+                    </a> and check out my work. I’m looking forward to building something amazing, one pixel at a time!                    <br />
+                </p>
             </div>
         </div >
     );
